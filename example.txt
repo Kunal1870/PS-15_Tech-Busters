@@ -1,0 +1,1 @@
+This is an example file used for testing encryption and decryption.
