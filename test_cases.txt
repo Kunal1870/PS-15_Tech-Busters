@@ -1,0 +1,29 @@
+# Test Cases for File Encryption and Decryption
+
+1. Simple Case
+- Input: Small text file (example.txt), passphrase "securepassword"
+- Expected Output: Decrypted file content matches original content.
+
+2. Empty File
+- Input: Empty file, passphrase "securepassword"
+- Expected Output: Decrypted file content is empty.
+
+3. Large File
+- Input: Large file (>100MB), passphrase "securepassword"
+- Expected Output: Decrypted file content matches original content.
+
+4. Incorrect Passphrase
+- Input: Small text file (example.txt), incorrect passphrase "wrongpassword"
+- Expected Output: Decryption fails or produces invalid output.
+
+5. Special Characters in Passphrase
+- Input: Small text file (example.txt), passphrase "P@$$w0rd!@#"
+- Expected Output: Decrypted file content matches original content.
+
+6. Non-ASCII Characters in File
+- Input: File with non-ASCII characters, passphrase "securepassword"
+- Expected Output: Decrypted file content matches original content.
+
+7. Short Passphrase
+- Input: Small text file (example.txt), passphrase "short"
+- Expected Output: Decrypted file content matches original content.
